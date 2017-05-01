@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.greenbus.assembly.edge</groupId>
+    <artifactId>greenbus-edge-assembly</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <maven-assembly-plugin.version>2.2.2</maven-assembly-plugin.version>
+    </properties>
+
+    <modules>
+        <module>greenbus-edge</module>
+    </modules>
+
+
+
+    <repositories>
+        <repository>
+            <id>totalgrid-release</id>
+            <name>https://repo.totalgrid.org-releases</name>
+            <url>https://repo.totalgrid.org/artifactory/totalgrid-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>totalgrid-snapshot</id>
+            <name>https://repo.totalgrid.org-snapshots</name>
+            <url>https://repo.totalgrid.org/artifactory/totalgrid-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>third-party-release</id>
+            <name>https://repo.totalgrid.org-releases</name>
+            <url>https://repo.totalgrid.org/artifactory/third-party-release</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+        <repository>
+            <id>third-party-snapshot</id>
+            <name>https://repo.totalgrid.org-snapshots</name>
+            <url>https://repo.totalgrid.org/artifactory/third-party-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+</project>
