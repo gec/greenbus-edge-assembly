@@ -110,6 +110,12 @@
                         </param>
                         <param>
                             <rootArtifact>
+                                io.greenbus.edge:greenbus-edge-modbus:0.0.1-SNAPSHOT
+                            </rootArtifact>
+                            <outputFile>lib/service/edge-modbus-gateway/jarlist</outputFile>
+                        </param>
+                        <param>
+                            <rootArtifact>
                                 io.greenbus.edge:greenbus-edge-configure-db:0.0.1-SNAPSHOT
                             </rootArtifact>
                             <outputFile>lib/service/edge-modules/jarlist</outputFile>
@@ -122,6 +128,17 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>io.greenbus.edge</groupId>
+            <artifactId>greenbus-edge-modbus</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-simple</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <dependency>
             <groupId>io.greenbus.edge</groupId>
             <artifactId>greenbus-edge-peer-relay</artifactId>
