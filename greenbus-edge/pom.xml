@@ -6,13 +6,13 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.greenbus.edge</groupId>
     <artifactId>greenbus-edge</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
         <groupId>io.greenbus.assembly.edge</groupId>
         <artifactId>greenbus-edge-assembly</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.3-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
 
@@ -92,31 +92,31 @@
                     <targets>
                         <param>
                             <rootArtifact>
-                                io.greenbus.edge:greenbus-edge-peer-relay:0.0.1-SNAPSHOT
+                                io.greenbus.edge:greenbus-edge-peer-relay:0.0.3-SNAPSHOT
                             </rootArtifact>
                             <outputFile>lib/service/edge-relay/jarlist</outputFile>
                         </param>
                         <param>
                             <rootArtifact>
-                                io.greenbus.edge:greenbus-edge-websocket-proxy:0.0.1-SNAPSHOT
+                                io.greenbus.edge:greenbus-edge-websocket-proxy:0.0.3-SNAPSHOT
                             </rootArtifact>
                             <outputFile>lib/service/edge-web-proxy/jarlist</outputFile>
                         </param>
                         <param>
                             <rootArtifact>
-                                io.greenbus.edge:greenbus-edge-dnp3:0.0.1-SNAPSHOT
+                                io.greenbus.edge:greenbus-edge-dnp3:0.0.3-SNAPSHOT
                             </rootArtifact>
                             <outputFile>lib/service/edge-dnp3-gateway/jarlist</outputFile>
                         </param>
                         <param>
                             <rootArtifact>
-                                io.greenbus.edge:greenbus-edge-modbus:0.0.1-SNAPSHOT
+                                io.greenbus.edge:greenbus-edge-modbus:0.0.3-SNAPSHOT
                             </rootArtifact>
                             <outputFile>lib/service/edge-modbus-gateway/jarlist</outputFile>
                         </param>
                         <param>
                             <rootArtifact>
-                                io.greenbus.edge:greenbus-edge-configure-db:0.0.1-SNAPSHOT
+                                io.greenbus.edge:greenbus-edge-configure-db:0.0.3-SNAPSHOT
                             </rootArtifact>
                             <outputFile>lib/service/edge-modules/jarlist</outputFile>
                         </param>
@@ -131,7 +131,7 @@
         <dependency>
             <groupId>io.greenbus.edge</groupId>
             <artifactId>greenbus-edge-modbus</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
@@ -142,7 +142,7 @@
         <dependency>
             <groupId>io.greenbus.edge</groupId>
             <artifactId>greenbus-edge-peer-relay</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
@@ -153,7 +153,7 @@
         <dependency>
             <groupId>io.greenbus.edge</groupId>
             <artifactId>greenbus-edge-configure-db</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
@@ -164,7 +164,7 @@
         <dependency>
             <groupId>io.greenbus.edge</groupId>
             <artifactId>greenbus-edge-dnp3</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
@@ -175,7 +175,7 @@
         <dependency>
             <groupId>io.greenbus.edge</groupId>
             <artifactId>greenbus-edge-websocket-proxy</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.3-SNAPSHOT</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.slf4j</groupId>
