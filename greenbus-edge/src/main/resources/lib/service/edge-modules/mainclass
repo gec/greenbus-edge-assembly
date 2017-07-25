@@ -1,1 +1,1 @@
-io.greenbus.edge.configure.endpoint.ConfigurerEndpoint
+io.greenbus.edge.configure.dyn.DynamicConfigurer
