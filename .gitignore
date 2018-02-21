@@ -2,4 +2,6 @@
 *.iml
 target
 out
+.project
+org.eclipse*
 
